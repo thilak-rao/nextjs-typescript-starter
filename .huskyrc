@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "pre-commit": "$(yarn bin)/lint-staged  --allow-empty",
+    "commit-msg": "$(yarn bin)/commitlint -E HUSKY_GIT_PARAMS ",
+    "post-merge": ".scripts/post-merge-hook.sh"
+  }
+}
