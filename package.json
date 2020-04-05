@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
+  "private": true,
+  "author": "Thilak Rao <rao@thilak.nl>",
   "scripts": {
     "cz": "git-cz",
     "build": "next build",
