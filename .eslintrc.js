@@ -47,6 +47,7 @@ module.exports = {
     'react-hooks',
   ],
   rules: {
+    'react/prop-types': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/anchor-has-content': 'off',
     'unicorn/prevent-abbreviations': [
@@ -54,6 +55,7 @@ module.exports = {
       {
         whitelist: {
           env: true,
+          props: true,
         },
       },
     ],
